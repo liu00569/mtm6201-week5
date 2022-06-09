@@ -18,8 +18,19 @@
             sizes="(max-width: 320px) 320px, 
             (max-width: 640px) 640px, 
             (max-width: 1024px) 1024px"
-            src="http://via.placeholder.com/640*640"
+            src="http://via.placeholder.com/640x640"
             alt="placeholder image">
+        </section>
+
+        <section>
+            <h2>Same size different resolution</h2>
+            <img srcset="
+            http://via.placeholder.com/320x320, 
+            http://via.placeholder.com/640x640 2x, 
+            http://via.placeholder.com/960x960 3x"
+
+            src="http://via.placeholder.com/640x640" 
+            alt="placeholder image" class="avatar">
         </section>
     </div>
 </body>
